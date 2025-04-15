@@ -10,7 +10,7 @@ def add_task(tasks, description):
 def view_tasks(tasks):
     """Display all tasks with their status"""
     if not tasks:
-        print("No tasks in the list!")
+        print("No tasks  in the list!")
         return
     
     print("\nCurrent Tasks:")
