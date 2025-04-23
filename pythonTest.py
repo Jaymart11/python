@@ -18,8 +18,11 @@ try:
         else:
             # Decrease the number of spaces:
             indent = indent - 1
+
+            
             if indent == 0:
+                indentIncreasing = True
                 # Change direction:
-                break
+                # break
 except KeyboardInterrupt:
     sys.exit()

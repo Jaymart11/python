@@ -70,8 +70,6 @@ while True:
             print('You ran out of guesses.')
             print('The answer was {}.'.format(secretNum))
 
-            
-
     print('Do you want to play again? (yes or no)')
     if not input('> ').lower().startswith('y'):
         break
